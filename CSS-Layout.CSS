@@ -1,0 +1,435 @@
+*{
+padding: 0 20px;
+font-weight: 100;
+font-family: Arial, Helvetica, sans-serif;
+}
+.header img {
+width: 250px;
+
+
+}
+.header {
+display: flex;
+flex-direction: row !important;
+justify-content: space-around;
+position: fixed;
+top: 10px;
+background-color: white;
+width: 100%;
+
+}
+header div {
+display: flex;
+gap: 20px;
+text-transform: capitalize;
+
+
+}
+header div a{
+text-decoration: none ;
+color: gray;
+
+}
+.dropdown :hover{
+color: aqua !important;
+
+}
+.butt {
+background-color: transparent;
+border: 0;
+color: gray !important;
+align-items: center;
+
+
+}
+.header div a:hover {
+color: aqua;
+
+
+}
+.Contenu {
+    margin-top: 80px;
+}/*
+*/
+
+
+/*
+.par {
+display: flex;
+flex-direction: row !important;
+padding: 20px;
+}
+header {
+display: flex;
+
+
+}
+
+header img{
+    width: 250px;
+}
+
+header div {
+display: flex;
+gap: 20px;
+align-items: center;
+
+
+
+}
+header div  a {
+    
+    text-decoration: none;yetne7a star ta7et lektiba
+    text-transform:capitalize;trodou majuscule 
+    
+
+}
+
+.buttom :hover {
+    color: aqua;
+
+
+}
+.drop {
+background-color: transparent;
+border: 0;
+color: gray;
+
+}
+*/
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    color: gray;
+    font-size: 20px;
+}
+.intro img{
+width: 100px;
+
+}
+.intro span{
+    color:  aqua;
+    font-size: 30px;
+        }
+.intro div {
+display: flex;
+gap: 2vw;
+
+}
+.Card-Groupe {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    gap: 2vw;
+    padding: 20px;
+}
+.Card-Groupe div {
+    width: 100%;
+    
+    }
+    /* 
+.Card-Groupe div:nth-child(1)
+{
+background-color: aquamarine;
+}
+.Card-Groupe div:nth-child(2)
+{
+background-color: rgb(129, 127, 255);
+}
+.Card-Groupe div:nth-child(3)
+{
+background-color: rgb(12, 13, 12);
+}
+header,.intro div,.Card-Groupe{
+flex-direction: column;
+
+
+
+}*/
+
+/*Card-one*/
+.Card-one {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 2vx;
+    color: white;
+    padding: 2vw 2vw;
+    border-radius: 15px;
+    font-size: 20px;
+        }
+.Card-one img {
+    width: 70px;
+        }
+.Card-one span{ 
+    font-size: 20px;
+    font-weight: bold;
+        }
+.Card-one select {
+    border: 0px;
+    background-color:transparent;
+    color: white;
+    text-decoration: underline;
+    outline: none;    
+        }
+.Card-one select option { /*couleur de liste select */
+    color: black;            
+        }
+/*Card-two*/
+.Card-two {
+    background-color:#3d83df;
+    display: flex;
+    flex-direction: column;
+    gap: 2vx;
+    color: white;
+    padding: 2vw 2vw;
+    border-radius: 15px;
+    font-size: 20px;
+        }
+.Card-two img {
+    width: 70px;
+        }
+.Card-two span{ 
+    font-size: 20px;
+    font-weight: bold;
+        }
+.Card-two select {
+    border: 0px;
+    background-color:transparent;
+    color: white;
+    text-decoration: underline;
+    outline: none;    
+        }
+.Card-two select option { /*couleur de liste select */
+    color: black;            
+        }
+/*Card-three  */
+.Card-three {
+    background-color:#5b626c;
+    display: flex;
+    flex-direction: column;
+    gap: 2vx;
+    color: white;
+    padding: 2vw 2vw;
+    border-radius: 15px;
+    font-size: 20px;
+        }
+.Card-three img {
+    width: 70px;
+        }
+.Card-three span{ 
+    font-size: 20px;
+    font-weight: bold;
+        }
+.Card-three select {
+    border: 0px;
+    background-color:transparent;
+    color: white;
+    text-decoration: underline;
+    outline: none;    
+        }
+.Card-three select option { /*couleur de liste select */
+    color: black;            
+        }
+.Spon {
+
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    padding: 5vw 0;
+    gap:40px;
+      
+        }
+.Spon svg {
+    width: 150px;
+    gap: 50px;
+        }
+svg path {
+    fill: #5b626c;
+}
+svg:hover path {
+    fill:  aqua;
+
+}
+       
+.Spon h1{
+    float: left;
+    width: 20%;
+    font-size: 25px;
+    color:  rgb(77, 178, 233);
+          
+     }
+.Spon div {
+    width: 70%;
+    
+
+}
+.main { 
+    display: flex;
+    background-color:rgb(186, 235, 245);
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: bottom left;
+}  
+.carte-item {
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    width: 80%;
+               
+        }
+
+.left{
+    margin-top: 20px;
+    color:rgb(77, 178, 233) ;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 20px;
+    
+     
+    }
+
+.left  p{
+    font-size: 20px;
+    color:grey;
+    padding: 5px 5px;
+          
+        }
+
+
+
+.duo-carte {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5vw;
+          }
+.second {  
+    padding: 5vw 0;
+
+        }
+.right {
+    display: flex ;
+    gap: 5vw;
+    padding: 5vw 0;
+    
+                    
+        }
+
+.footer {
+display: flex;
+flex-direction: row !important;
+flex-wrap: wrap;
+padding: 20px;
+width: 600;
+
+}
+
+.carte-footer {
+display: flex;
+flex-direction: column;
+width: 30%;
+padding-top: 20px;
+justify-content: space-between;
+padding: 20px;
+
+
+}
+.carte-footer img{
+    border-radius: 22px;
+   
+}
+.carte-footer div {
+background-color: white;
+padding: 5px 10px;
+display: flex;
+justify-content: space-between;
+
+
+}
+.carte-footer div button {
+background-color: blue;
+border: 0;
+color: white;
+padding: 2px 10px;
+border-radius: 5px;
+justify-content: center;
+
+
+}
+.Improve span {
+color:rgb(77, 178, 233);
+font-size: 30px;
+display: flex;
+justify-content: center;
+text-align: center;
+
+
+
+}
+.Improve p {
+display: flex;
+
+font-size: 20px;
+justify-content: center;
+text-align: center;
+width: 350px;
+
+}
+.Improve {
+padding-top: 70px;
+border:20px;
+gap: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+.FinPage  {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 200;
+    text-transform: uppercase;
+
+}
+
+.FinPage button {
+    background-color: blue;
+    border: 0;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    justify-content: center;
+    font-weight: 200;
+    text-transform: uppercase;
+   
+}
+.pied-page {
+padding: 50px;
+color: grey;
+font-size: 12px;
+gap: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+align-items: center;
+font-weight: 200;
+text-transform: uppercase;
+
+
+}
+
+    
+   
